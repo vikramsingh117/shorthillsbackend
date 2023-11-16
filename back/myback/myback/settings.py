@@ -23,7 +23,7 @@ CLOUDINARY = {
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get(SECRET_KEY)
+SECRET_KEY = '1i&3b0u3ni^jztk4na=)23y-4gbd_eh8)%gq$lvinmk+=)j&fj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
