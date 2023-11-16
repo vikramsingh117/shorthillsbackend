@@ -3,6 +3,7 @@ from pathlib import Path
 import cloudinary
 import django_heroku
 import dj_database_url
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 cloudinary.config(
     cloud_name="dqjru6fzb",
@@ -98,7 +99,7 @@ WSGI_APPLICATION = 'myback.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'crud',
         'USER': 'root',
         'PASSWORD': 'Vikram 121',
